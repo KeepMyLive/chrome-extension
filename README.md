@@ -1,1 +1,1 @@
-# chrome-extension
+# KeepMyLive Auth extension for Chrome
