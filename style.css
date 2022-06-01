@@ -1,0 +1,64 @@
+body {
+  background-color: #223022;
+  text-align: center;
+}
+
+h1 {
+  font-size: medium;
+  color: white;
+}
+
+a {
+  font-size: large;
+  color: white;
+  font-weight: bold;
+  text-decoration: unset;
+}
+
+.button {
+  height: 50px;
+  width: 80px;
+  outline: none;
+  margin: 10px;
+  margin-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 2px;
+  background-color: #162216;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.button:hover {
+  background-color: #1d1f1d;
+  transition: background-color 0.2s;
+}
+
+.button.current {
+  box-shadow: 0 0 0 2px white,
+              0 0 0 4px black;
+}
+
+.input {
+  width: fit-content;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 150%;
+  text-align: center;
+}
+
+.div {
+  visibility: visible;
+  text-align: center;
+}
+
+.success {
+  visibility: hidden;
+  background-color: green;
+  margin: 10px;
+  font-size: large;
+}
